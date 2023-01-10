@@ -2,22 +2,16 @@
 <html class="no-js" lang="en">
 <head>
 <meta charset="utf-8">
-<title>CleanStart | قالب فارسی | میهن وبمستر</title>
+<title>Cleanstart is a clean, multipurpose HTML template</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- All Animations CSS -->
 <link href="css/animate.css" rel="stylesheet" type="text/css">
-<link href="css/animate-rtl.css" rel="stylesheet" type="text/css">
 <!-- Image Lightbox CSS-->
 <link rel="stylesheet" href="css/imagelightbox.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/imagelightbox-rtl.css" type="text/css" media="screen">
 <!-- Theme styles and Menu styles -->
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="css/style-rtl.css" rel="stylesheet" type="text/css">
 <link href="css/mainmenu.css" rel="stylesheet" type="text/css">
-<link href="css/mainmenu-rtl.css" rel="stylesheet" type="text/css">
 <!-- Call Fontawsome Icon Font from a CDN -->
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <!--Pace Page Loader -->
@@ -40,7 +34,7 @@
 </head>
 <body class="sticky_header">
 <div class="overflow_wrapper">
-     <header>
+     <header class="centered">
           <div class="container">
                <div class="logo"><a class="brand" href="index.html"> <img src="images/cleanstart_logo.png" alt="optional logo"> <span class="logo_title">کلین استارت</span></a></div>
                <div id="mainmenu" class="menu_container">
@@ -54,12 +48,12 @@
                          <li><a href="blog.html">وبلاگ</a></li>
                          <li><a href="contact.html">تماس با ما</a></li>
                          <li><a href="#">ویژگی ها</a>
-                              <div class="dmui_dropdown_block full_width" style="background-image: url(images/mega_menu_background.png); background-repeat:no-repeat; background-position:-70px;width:500px;">
+                              <div class="dmui_dropdown_block full_width" style="background-image: url(images/mega_menu_background.png); background-repeat:no-repeat; background-position:left;">
                                    <div class="dmui-container">
                                         <div class="dmui-col span3">
                                              <div class="dmui-container">
                                                   <ul class="dmui-submenu">
-                                                       <li><a href="home_alternative.html">جایگزین خانه</a></li>
+                                                        <li><a href="home_alternative.html">جایگزین خانه</a></li>
                                                        <li><a href="page_alternative.html">جایگزین برگه</a></li>
                                                        <li><a href="gallery.html">نمونه کار ماسونری</a></li>
                                                        <li><a href="portfolio_item.html">نمونه کار تکی</a></li>
@@ -70,7 +64,7 @@
                                         <div class="dmui-col span3">
                                              <div class="dmui-container">
                                                   <ul class="dmui-submenu">
-                                                       <li><a href="single_post.html">نوشته تکی</a></li>
+                                                     <li><a href="single_post.html">نوشته تکی</a></li>
                                                        <li><a href="404.html">خطای 404</a></li>
                                                        <li><a href="register.html">ثبت نام یا ورود</a></li>
                                                        <li><a href="elements.html">عناصر طراحی</a></li>
@@ -121,12 +115,18 @@
           </div>
      </section>
      <div class="main">
-          <div class="container triangles-of-section">
-               <div class="triangle-up-left"></div>
-               <div class="square-left"></div>
-               <div class="triangle-up-right"></div>
-               <div class="square-right"></div>
-          </div>
+          <section class="call_to_action dark_section">
+               <div class="container triangles-of-section">
+                    <div class="triangle-up-left"></div>
+                    <div class="square-left"></div>
+                    <div class="triangle-up-right"></div>
+                    <div class="square-right"></div>
+               </div>
+              <div class="container">
+                    <h3>تمرکز قالب بر <strong><span class="rotate">زیبایی, سادگی, خلاقیت </span></strong> است</h3>
+                    <h4>و ما معتقدیم بر این اصول پایدار بوده ایم</h4>
+                    <a class="btn btn-primary" href="#">میهن وبمستر!</a> </div>
+          </section>
           <section class="features_teasers_wrapper">
                <div class="container">
                     <div class="row">
@@ -145,19 +145,7 @@
                     </div>
                </div>
           </section>
-          <section class="call_to_action dark_section">
-               <div class="container">
-                    <h3>تمرکز قالب بر <strong><span class="rotate">زیبایی, سادگی, خلاقیت </span></strong> است</h3>
-                    <h4>و ما معتقدیم بر این اصول پایدار بوده ایم</h4>
-                    <a class="btn btn-primary" href="#">میهن وبمستر!</a> </div>
-          </section>
           <section class="portfolio_teasers_wrapper">
-               <div class="container triangles-of-section">
-                    <div class="triangle-up-left"></div>
-                    <div class="square-left"></div>
-                    <div class="triangle-up-right"></div>
-                    <div class="square-right"></div>
-               </div>
                <div class="container">
                     <h2 class="section_header fancy centered">پروژه های اخیری که اجرا کرده ایم<small>ما به پروژه هایمان افتخار می کنیم</small></h2>
                     <div class="portfolio_strict row">
@@ -203,14 +191,8 @@
                     </div>
                     <div class="centered_button"><a class="btn btn-primary" href="portfolio.html">نمونه های دیگر</a></div>
                </div>
-               <div class="clients_section wow fadeInUp">
-                    <div class="container">
-                         <h2 class="section_header elegant centered">مشتریان عزیز ما <small>که به همگی افتخار می کنیم</small></h2>
-                         <div class="clients_list"> <a href="#"><img src="images/clients/wordpress.png" alt="client"></a> <a href="#"><img src="images/clients/jquery.png" alt="client"></a> <a href="#"><img src="images/clients/microlancer.png" alt="client"></a> <a href="#"><img src="images/clients/bbpress.png" alt="client"></a> <a href="#"><img src="images/clients/wpml.png" alt="client"></a> </div>
-                    </div>
-               </div>
           </section>
-          <section class="twitter_feed_wrapper skincolored_section">
+           <section class="twitter_feed_wrapper skincolored_section">
                <div class="container">
                     <div class="row">
                          <div class="twitter_feed_icon wow fadeInDown"><a href="https://twitter.com/PlethoraThemes"><i class="fa fa-twitter"></i></a></div>
